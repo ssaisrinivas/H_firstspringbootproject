@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyController {
 	
-	@GetMapping("/")
+	@GetMapping("/home")
 	public String sayHello() {
 		
 		return "Welcome to my first spring boot Application";
